@@ -32,8 +32,22 @@ aside header {
   overflow-y: scroll;
 }
 .profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   height: 12%;
   background-color: #667ADB;
+}
+.profile-image {
+  border: 2px solid black;
+  width: 3.3vw;
+  height: 3.3vw;
+  margin: 0 1em 0 2em;
+  border-radius: 25px;
+}
+.profile-name {
+  color: white;
+  font-size: 1.2em;
 }
 article {
   height: 5em;

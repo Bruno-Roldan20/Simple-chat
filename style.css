@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+aside {
+  width: 30vw;
+  background-color: #5EC2A5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+aside header {
+  background-color: #667ADB;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-search {
+  border-radius: 7px;
+  border: none;
+  height: 45%;
+  width: 60%;
+  font-size: 1em;
+}
+.contact-search:focus {
+  outline: 2px solid black;
+}
+.contacts {
+  height: 88%;
+  overflow-y: scroll;
+}
+.profile {
+  height: 12%;
+  background-color: #667ADB;
+}
+article {
+  height: 5em;
+  border-bottom: 1px solid #667ADB;
+}
+main {
+  height: 100vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+.message-container {
+  margin-bottom: 9%;
+}
+.contact-data {
+  height: 10%;
+  background-color: #5EC2A5;
+}
+.chat {
+  height: 100%;
+  background-color: #9FADBD;
+  overflow-y: scroll;
+}
+.message {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70vw;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-message {
+  border-radius: 7px;
+  border: none;
+  height: 45%;
+  width: 60%;
+  font-size: 1em;
+}
+.input-message:focus {
+  outline: 2px solid black;
+}
